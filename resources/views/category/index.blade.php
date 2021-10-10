@@ -77,12 +77,12 @@
           <div class="modal-body">
             <div class="form-group">
               <label for="category_name">Kategori</label>
-              <input type="text" name="category_name" id="category_name" class="form-control form-control-sm rounded-40">
+              <input type="text" name="category_name" id="category_name" class="form-control form-control-sm rounded">
             </div>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Save changes</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary rounded">Simpan</button>
+            <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">Tutup</button>
           </div>
         </form>
       </div>

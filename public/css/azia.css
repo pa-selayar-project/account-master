@@ -156,7 +156,7 @@ body {
   line-height: 1.5;
   color: #031b4e;
   text-align: center;
-  background-color: rgb(161, 211, 184); }
+  background-color: white; }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
@@ -8957,12 +8957,13 @@ a.text-dark:hover, a.text-dark:focus {
 /* ###### 6.2 Footer  ###### */
 .az-footer {
   background-color: #fff;
-  position:absolute;
+  position:relative;
   bottom:0;
   width:100%;
   border-top: 1px solid #cdd4e0;
   margin-top: auto;
-  display: none; }
+  display: block; 
+}
   @media (min-width: 992px) {
     .az-footer {
       display: block; } }
